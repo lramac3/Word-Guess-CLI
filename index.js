@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 let wordMod = require("./Word.js");
-let artMod = require("./images.js");
+let artMod = require("./ascii.js");
 let inquirer = require("inquirer");
 let Word = wordMod.Wordfn;
 let printArt = artMod.printArtFn;
