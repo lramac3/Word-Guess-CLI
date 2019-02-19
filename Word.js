@@ -1,6 +1,6 @@
- var Lettermod = require("./Letter.js");
+ let Lettermod = require("./Letter.js");
 
-var Letter = Lettermod.Letterfn;
+let Letter = Lettermod.Letterfn;
 
 /**
  * Word() is a constructor that takes in an input word, creates an array of letters, then creates a Letter() object for
@@ -13,16 +13,16 @@ var Letter = Lettermod.Letterfn;
 function Word(inputWord) {
     this.arrRaw = inputWord.split("");
     this.arr = [];
-    for (var i = 0; i < this.arrRaw.length; i++) {
-        var newLet = new Letter(this.arrRaw[i]);
+    for (let i = 0; i < this.arrRaw.length; i++) {
+        let newLet = new Letter(this.arrRaw[i]);
         if (this.arrRaw[i] === " ") {
             newLet.guessed = true;
         }
         this.arr.push(newLet);
     }
     this.arrRawDisp = function() {
-        var wordList = "";
-        for (var i = 0; i < this.arrRaw.length; i++) {
+        let wordList = "";
+        for (let i = 0; i < this.arrRaw.length; i++) {
             if (i > 0) {
                 wordList += " ";
             }
@@ -31,8 +31,8 @@ function Word(inputWord) {
         return wordList;
     };
     this.displayWord = function() {
-        var wordList = "";
-        for (var i = 0; i < this.arr.length; i++) {
+        let wordList = "";
+        for (let i = 0; i < this.arr.length; i++) {
             if (i > 0) {
                 wordList += " ";
             }
@@ -41,9 +41,9 @@ function Word(inputWord) {
         return wordList;
     };
     this.guessWord = function(char) {
-        var correctGuess = false;
-        for (var i = 0; i < this.arr.length; i++) {
-            var temp = this.arr[i].check(char);
+        let correctGuess = false;
+        for (let i = 0; i < this.arr.length; i++) {
+            let temp = this.arr[i].check(char);
             if (temp === true) {
                 correctGuess = true;
             }
@@ -52,5 +52,4 @@ function Word(inputWord) {
     };
 }
 
-module.exports = {
-    Wordfn: Word};
+module.exports = { Wordfn: Word};
