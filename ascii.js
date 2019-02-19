@@ -48,7 +48,7 @@ function printArt(art) {
 }
 
 module.exports = {
-    printArtFunc: printArt,
+    printArtFn: printArt,
     hatart: hatart,
     skullart: skullart,
     wizardart: wizardart

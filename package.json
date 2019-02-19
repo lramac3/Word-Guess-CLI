@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lramac3/Word-Guess-CLI/issues"
   },
-  "homepage": "https://github.com/lramac3/Word-Guess-CLI#readme"
+  "homepage": "https://github.com/lramac3/Word-Guess-CLI#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
 }
