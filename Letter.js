@@ -33,4 +33,4 @@ function Letter(char) {
     };
 }
 
-module.exports = { Letterfunc: Letter};
+module.exports = { Letterfn: Letter};
