@@ -44,10 +44,10 @@ function printStart() {
 WELCOME TO HANGMAN
 ##################
 \n`);
-    printArt(artMod.bootart);
+    printArt(artMod.wizardart);
 
     console.log(
-        "Saddle up, partner! Are your spurs sharp enough to solve my puzzles?"
+        "Here we go! Are you sharp enough to solve my puzzles?"
     );
 }
 
@@ -57,7 +57,7 @@ WELCOME TO HANGMAN
 function printWin() {
     console.log(newWord.displayWord());
     printArt(artMod.hatart);
-    console.log("Well alright, there -- I suppose you've beaten my boots!");
+    console.log("Well alright, there -- I suppose you've got skills");
 }
 
 /**
@@ -68,7 +68,7 @@ function printLose() {
 ${newWord.arrRawDisp()}`);
     printArt(artMod.skullart);
     console.log(
-        "Shucks, greenhorn! I thought you were supposed to be a problem solver!"
+        "Try again! I thought you were supposed to be a problem solver!"
     );
 }
 

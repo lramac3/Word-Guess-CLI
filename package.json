@@ -1,0 +1,20 @@
+{
+  "name": "Word-Guess-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lramac3/Word-Guess-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lramac3/Word-Guess-CLI/issues"
+  },
+  "homepage": "https://github.com/lramac3/Word-Guess-CLI#readme"
+}
