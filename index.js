@@ -44,7 +44,7 @@ function printStart() {
 WELCOME TO HANGMAN
 ##################
 \n`);
-    printArt(artMod.wizardart);
+    printArt(artMod.puzzleart);
 
     console.log(
         "Here we go! Are you sharp enough to solve my puzzles?"
@@ -104,10 +104,10 @@ function checkLetter(answer) {
     let correctorno = newWord.guessWord(answer);
 
     if (correctorno) {
-        console.log("################\nCorrect! Yeehaw!\n################\n");
+        console.log("################\nCorrect! Well Done!\n################\n");
     } else {
         console.log(
-            "##################\nIncorrect! Shucks!\n##################\n"
+            "##################\nIncorrect! Try again!\n##################\n"
         );
         guessesLeft--;
     }
