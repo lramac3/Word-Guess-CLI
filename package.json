@@ -9,9 +9,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lramac3/Word-Guess-CLI.git"
+  }, 
+  "bin": {
+    "hangman": "./index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["hangman"],
+  "author": "Linu Ramachandran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lramac3/Word-Guess-CLI/issues"
