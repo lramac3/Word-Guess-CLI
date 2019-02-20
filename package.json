@@ -14,7 +14,8 @@
     "hangman": "./index.js"
   },
   "keywords": [
-    "hangman", "CLI"
+    "hangman",
+    "CLI"
   ],
   "author": "Linu Ramachandran",
   "license": "ISC",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/lramac3/Word-Guess-CLI#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "inquirer": "^6.2.2"
   },
   "devDependencies": {
