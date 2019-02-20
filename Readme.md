@@ -1,11 +1,11 @@
-# Welcome to Hangman app
+# Welcome to Hangman
 
-LIRI is a Language Interpretation and Recognition Interface. LIRI takes the user's command line input to look up movie info, song info, concert info, or follow written instructions from a text file.
+Hangman is a word guess command-line game. It is inspired by the classic word game in which you must guess as many secret words as you can before time runs out! Challenge your friends and learn new words.
 
 ### Getting Started
 
 If you are downloading the npm package, run the following command in your terminal
 
 ```
-sudo npm install liri-node-app1 -g
+sudo npm install hangman-app -g
 ```
