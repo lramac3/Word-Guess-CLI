@@ -1,6 +1,6 @@
 {
-  "name": "Word-Guess-CLI",
-  "version": "1.0.0",
+  "name": "hangman-app",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "hangman": "./index.js"
   },
   "keywords": [
-    "hangman"
+    "hangman", "CLI"
   ],
   "author": "Linu Ramachandran",
   "license": "ISC",
