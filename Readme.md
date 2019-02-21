@@ -9,3 +9,4 @@ If you are downloading the npm package, run the following command in your termin
 ```
 sudo npm install hangman-app -g
 ```
+![install-package-globally](https://user-images.githubusercontent.com/28829258/53135536-91696900-3549-11e9-8a01-e7ffee01ce97.png)
