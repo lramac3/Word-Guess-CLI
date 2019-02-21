@@ -1,6 +1,6 @@
 {
   "name": "hangman-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "inspect": "0.0.2"
+  },
+  "engines": {
+    "node": "10.15.0"
   }
 }
