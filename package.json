@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -15,7 +17,8 @@
   },
   "keywords": [
     "hangman",
-    "CLI", "word guess"
+    "CLI",
+    "word guess"
   ],
   "author": "Linu Ramachandran",
   "license": "ISC",
@@ -25,12 +28,14 @@
   "homepage": "https://github.com/lramac3/Word-Guess-CLI#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "inquirer": "^6.2.2"
+    "inquirer": "^6.2.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "inspect": "0.0.2"
   },
   "engines": {
     "node": "10.15.0"
-  }
+  },
+  "snyk": true
 }
